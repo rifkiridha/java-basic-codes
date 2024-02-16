@@ -8,7 +8,7 @@ public class Fibonacci {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         if (!(n >= 1)) {
-            System.out.println("Input tidak valid");
+            System.out.println("Invalid input");
         } else {
             int a1 = 1, a2 = 1, a3;
             for (int i = 0; i < n; i++) {
